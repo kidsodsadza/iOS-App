@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0437E39F1D7FD96000171475 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E39E1D7FD96000171475 /* LaunchImage.png */; };
+		0437E3A11D7FDE3600171475 /* backgroud.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A01D7FDE3600171475 /* backgroud.png */; };
+		0437E3A81D7FDE6B00171475 /* rocket0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A21D7FDE6B00171475 /* rocket0.png */; };
+		0437E3A91D7FDE6B00171475 /* rocket1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A31D7FDE6B00171475 /* rocket1.png */; };
+		0437E3AA1D7FDE6B00171475 /* rocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A41D7FDE6B00171475 /* rocket2.png */; };
+		0437E3AB1D7FDE6B00171475 /* rocket3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A51D7FDE6B00171475 /* rocket3.png */; };
+		0437E3AC1D7FDE6B00171475 /* rocket4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A61D7FDE6B00171475 /* rocket4.png */; };
+		0437E3AD1D7FDE6B00171475 /* rocket5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437E3A71D7FDE6B00171475 /* rocket5.png */; };
+		04DBB8481D76862100D020D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBB8471D76862100D020D6 /* AppDelegate.swift */; };
+		04DBB84A1D76862100D020D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBB8491D76862100D020D6 /* ViewController.swift */; };
+		04DBB84D1D76862100D020D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBB84B1D76862100D020D6 /* Main.storyboard */; };
+		04DBB84F1D76862100D020D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBB84E1D76862100D020D6 /* Assets.xcassets */; };
+		04DBB8521D76862100D020D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBB8501D76862100D020D6 /* LaunchScreen.storyboard */; };
+		04DE262E1D9B807800FB4A83 /* RocketAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE262D1D9B807800FB4A83 /* RocketAnimationViewController.swift */; };
+		04DE26541D9B836400FB4A83 /* myrocket1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26301D9B836400FB4A83 /* myrocket1.png */; };
+		04DE26551D9B836400FB4A83 /* myrocket10.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26311D9B836400FB4A83 /* myrocket10.png */; };
+		04DE26561D9B836400FB4A83 /* myrocket11.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26321D9B836400FB4A83 /* myrocket11.png */; };
+		04DE26571D9B836400FB4A83 /* myrocket12.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26331D9B836400FB4A83 /* myrocket12.png */; };
+		04DE26581D9B836400FB4A83 /* myrocket13.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26341D9B836400FB4A83 /* myrocket13.png */; };
+		04DE26591D9B836400FB4A83 /* myrocket14.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26351D9B836400FB4A83 /* myrocket14.png */; };
+		04DE265A1D9B836400FB4A83 /* myrocket15.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26361D9B836400FB4A83 /* myrocket15.png */; };
+		04DE265B1D9B836400FB4A83 /* myrocket16.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26371D9B836400FB4A83 /* myrocket16.png */; };
+		04DE265C1D9B836400FB4A83 /* myrocket17.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26381D9B836400FB4A83 /* myrocket17.png */; };
+		04DE265D1D9B836400FB4A83 /* myrocket18.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26391D9B836400FB4A83 /* myrocket18.png */; };
+		04DE265E1D9B836400FB4A83 /* myrocket19.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263A1D9B836400FB4A83 /* myrocket19.png */; };
+		04DE265F1D9B836400FB4A83 /* myrocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263B1D9B836400FB4A83 /* myrocket2.png */; };
+		04DE26601D9B836400FB4A83 /* myrocket20.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263C1D9B836400FB4A83 /* myrocket20.png */; };
+		04DE26611D9B836400FB4A83 /* myrocket21.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263D1D9B836400FB4A83 /* myrocket21.png */; };
+		04DE26621D9B836400FB4A83 /* myrocket22.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263E1D9B836400FB4A83 /* myrocket22.png */; };
+		04DE26631D9B836400FB4A83 /* myrocket23.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE263F1D9B836400FB4A83 /* myrocket23.png */; };
+		04DE26641D9B836400FB4A83 /* myrocket24.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26401D9B836400FB4A83 /* myrocket24.png */; };
+		04DE26651D9B836400FB4A83 /* myrocket25.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26411D9B836400FB4A83 /* myrocket25.png */; };
+		04DE26661D9B836400FB4A83 /* myrocket26.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26421D9B836400FB4A83 /* myrocket26.png */; };
+		04DE26671D9B836400FB4A83 /* myrocket27.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26431D9B836400FB4A83 /* myrocket27.png */; };
+		04DE26681D9B836400FB4A83 /* myrocket28.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26441D9B836400FB4A83 /* myrocket28.png */; };
+		04DE26691D9B836400FB4A83 /* myrocket29.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26451D9B836400FB4A83 /* myrocket29.png */; };
+		04DE266A1D9B836400FB4A83 /* myrocket3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26461D9B836400FB4A83 /* myrocket3.png */; };
+		04DE266B1D9B836400FB4A83 /* myrocket30.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26471D9B836400FB4A83 /* myrocket30.png */; };
+		04DE266C1D9B836400FB4A83 /* myrocket31.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26481D9B836400FB4A83 /* myrocket31.png */; };
+		04DE266D1D9B836400FB4A83 /* myrocket32.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26491D9B836400FB4A83 /* myrocket32.png */; };
+		04DE266E1D9B836400FB4A83 /* myrocket33.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264A1D9B836400FB4A83 /* myrocket33.png */; };
+		04DE266F1D9B836400FB4A83 /* myrocket34.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264B1D9B836400FB4A83 /* myrocket34.png */; };
+		04DE26701D9B836400FB4A83 /* myrocket35.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264C1D9B836400FB4A83 /* myrocket35.png */; };
+		04DE26711D9B836400FB4A83 /* myrocket36.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264D1D9B836400FB4A83 /* myrocket36.png */; };
+		04DE26721D9B836400FB4A83 /* myrocket4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264E1D9B836400FB4A83 /* myrocket4.png */; };
+		04DE26731D9B836400FB4A83 /* myrocket5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE264F1D9B836400FB4A83 /* myrocket5.png */; };
+		04DE26741D9B836400FB4A83 /* myrocket6.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26501D9B836400FB4A83 /* myrocket6.png */; };
+		04DE26751D9B836400FB4A83 /* myrocket7.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26511D9B836400FB4A83 /* myrocket7.png */; };
+		04DE26761D9B836400FB4A83 /* myrocket8.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26521D9B836400FB4A83 /* myrocket8.png */; };
+		04DE26771D9B836400FB4A83 /* myrocket9.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DE26531D9B836400FB4A83 /* myrocket9.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0437E39E1D7FD96000171475 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		0437E3A01D7FDE3600171475 /* backgroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroud.png; sourceTree = "<group>"; };
+		0437E3A21D7FDE6B00171475 /* rocket0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket0.png; sourceTree = "<group>"; };
+		0437E3A31D7FDE6B00171475 /* rocket1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket1.png; sourceTree = "<group>"; };
+		0437E3A41D7FDE6B00171475 /* rocket2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2.png; sourceTree = "<group>"; };
+		0437E3A51D7FDE6B00171475 /* rocket3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket3.png; sourceTree = "<group>"; };
+		0437E3A61D7FDE6B00171475 /* rocket4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket4.png; sourceTree = "<group>"; };
+		0437E3A71D7FDE6B00171475 /* rocket5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket5.png; sourceTree = "<group>"; };
+		04DBB8441D76862100D020D6 /* MybasicMathGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MybasicMathGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBB8471D76862100D020D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DBB8491D76862100D020D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DBB84C1D76862100D020D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DBB84E1D76862100D020D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DBB8511D76862100D020D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DBB8531D76862100D020D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DE262D1D9B807800FB4A83 /* RocketAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketAnimationViewController.swift; sourceTree = "<group>"; };
+		04DE26301D9B836400FB4A83 /* myrocket1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket1.png; sourceTree = "<group>"; };
+		04DE26311D9B836400FB4A83 /* myrocket10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket10.png; sourceTree = "<group>"; };
+		04DE26321D9B836400FB4A83 /* myrocket11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket11.png; sourceTree = "<group>"; };
+		04DE26331D9B836400FB4A83 /* myrocket12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket12.png; sourceTree = "<group>"; };
+		04DE26341D9B836400FB4A83 /* myrocket13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket13.png; sourceTree = "<group>"; };
+		04DE26351D9B836400FB4A83 /* myrocket14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket14.png; sourceTree = "<group>"; };
+		04DE26361D9B836400FB4A83 /* myrocket15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket15.png; sourceTree = "<group>"; };
+		04DE26371D9B836400FB4A83 /* myrocket16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket16.png; sourceTree = "<group>"; };
+		04DE26381D9B836400FB4A83 /* myrocket17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket17.png; sourceTree = "<group>"; };
+		04DE26391D9B836400FB4A83 /* myrocket18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket18.png; sourceTree = "<group>"; };
+		04DE263A1D9B836400FB4A83 /* myrocket19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket19.png; sourceTree = "<group>"; };
+		04DE263B1D9B836400FB4A83 /* myrocket2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket2.png; sourceTree = "<group>"; };
+		04DE263C1D9B836400FB4A83 /* myrocket20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket20.png; sourceTree = "<group>"; };
+		04DE263D1D9B836400FB4A83 /* myrocket21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket21.png; sourceTree = "<group>"; };
+		04DE263E1D9B836400FB4A83 /* myrocket22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket22.png; sourceTree = "<group>"; };
+		04DE263F1D9B836400FB4A83 /* myrocket23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket23.png; sourceTree = "<group>"; };
+		04DE26401D9B836400FB4A83 /* myrocket24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket24.png; sourceTree = "<group>"; };
+		04DE26411D9B836400FB4A83 /* myrocket25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket25.png; sourceTree = "<group>"; };
+		04DE26421D9B836400FB4A83 /* myrocket26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket26.png; sourceTree = "<group>"; };
+		04DE26431D9B836400FB4A83 /* myrocket27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket27.png; sourceTree = "<group>"; };
+		04DE26441D9B836400FB4A83 /* myrocket28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket28.png; sourceTree = "<group>"; };
+		04DE26451D9B836400FB4A83 /* myrocket29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket29.png; sourceTree = "<group>"; };
+		04DE26461D9B836400FB4A83 /* myrocket3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket3.png; sourceTree = "<group>"; };
+		04DE26471D9B836400FB4A83 /* myrocket30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket30.png; sourceTree = "<group>"; };
+		04DE26481D9B836400FB4A83 /* myrocket31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket31.png; sourceTree = "<group>"; };
+		04DE26491D9B836400FB4A83 /* myrocket32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket32.png; sourceTree = "<group>"; };
+		04DE264A1D9B836400FB4A83 /* myrocket33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket33.png; sourceTree = "<group>"; };
+		04DE264B1D9B836400FB4A83 /* myrocket34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket34.png; sourceTree = "<group>"; };
+		04DE264C1D9B836400FB4A83 /* myrocket35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket35.png; sourceTree = "<group>"; };
+		04DE264D1D9B836400FB4A83 /* myrocket36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket36.png; sourceTree = "<group>"; };
+		04DE264E1D9B836400FB4A83 /* myrocket4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket4.png; sourceTree = "<group>"; };
+		04DE264F1D9B836400FB4A83 /* myrocket5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket5.png; sourceTree = "<group>"; };
+		04DE26501D9B836400FB4A83 /* myrocket6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket6.png; sourceTree = "<group>"; };
+		04DE26511D9B836400FB4A83 /* myrocket7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket7.png; sourceTree = "<group>"; };
+		04DE26521D9B836400FB4A83 /* myrocket8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket8.png; sourceTree = "<group>"; };
+		04DE26531D9B836400FB4A83 /* myrocket9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myrocket9.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DBB8411D76862000D020D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0437E3AE1D7FDEF900171475 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0437E3A21D7FDE6B00171475 /* rocket0.png */,
+				0437E3A31D7FDE6B00171475 /* rocket1.png */,
+				0437E3A41D7FDE6B00171475 /* rocket2.png */,
+				0437E3A51D7FDE6B00171475 /* rocket3.png */,
+				0437E3A61D7FDE6B00171475 /* rocket4.png */,
+				0437E3A71D7FDE6B00171475 /* rocket5.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		04DBB83B1D76862000D020D6 = {
+			isa = PBXGroup;
+			children = (
+				04DBB8461D76862100D020D6 /* MybasicMathGame */,
+				04DBB8451D76862100D020D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DBB8451D76862100D020D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DBB8441D76862100D020D6 /* MybasicMathGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DBB8461D76862100D020D6 /* MybasicMathGame */ = {
+			isa = PBXGroup;
+			children = (
+				04DBB8471D76862100D020D6 /* AppDelegate.swift */,
+				04DE262D1D9B807800FB4A83 /* RocketAnimationViewController.swift */,
+				04DBB8491D76862100D020D6 /* ViewController.swift */,
+				04DBB84B1D76862100D020D6 /* Main.storyboard */,
+				04DBB84E1D76862100D020D6 /* Assets.xcassets */,
+				04DBB8501D76862100D020D6 /* LaunchScreen.storyboard */,
+				0437E39E1D7FD96000171475 /* LaunchImage.png */,
+				0437E3A01D7FDE3600171475 /* backgroud.png */,
+				04DE262F1D9B836400FB4A83 /* RocketImages */,
+				0437E3AE1D7FDEF900171475 /* image */,
+				04DBB8531D76862100D020D6 /* Info.plist */,
+			);
+			path = MybasicMathGame;
+			sourceTree = "<group>";
+		};
+		04DE262F1D9B836400FB4A83 /* RocketImages */ = {
+			isa = PBXGroup;
+			children = (
+				04DE26301D9B836400FB4A83 /* myrocket1.png */,
+				04DE26311D9B836400FB4A83 /* myrocket10.png */,
+				04DE26321D9B836400FB4A83 /* myrocket11.png */,
+				04DE26331D9B836400FB4A83 /* myrocket12.png */,
+				04DE26341D9B836400FB4A83 /* myrocket13.png */,
+				04DE26351D9B836400FB4A83 /* myrocket14.png */,
+				04DE26361D9B836400FB4A83 /* myrocket15.png */,
+				04DE26371D9B836400FB4A83 /* myrocket16.png */,
+				04DE26381D9B836400FB4A83 /* myrocket17.png */,
+				04DE26391D9B836400FB4A83 /* myrocket18.png */,
+				04DE263A1D9B836400FB4A83 /* myrocket19.png */,
+				04DE263B1D9B836400FB4A83 /* myrocket2.png */,
+				04DE263C1D9B836400FB4A83 /* myrocket20.png */,
+				04DE263D1D9B836400FB4A83 /* myrocket21.png */,
+				04DE263E1D9B836400FB4A83 /* myrocket22.png */,
+				04DE263F1D9B836400FB4A83 /* myrocket23.png */,
+				04DE26401D9B836400FB4A83 /* myrocket24.png */,
+				04DE26411D9B836400FB4A83 /* myrocket25.png */,
+				04DE26421D9B836400FB4A83 /* myrocket26.png */,
+				04DE26431D9B836400FB4A83 /* myrocket27.png */,
+				04DE26441D9B836400FB4A83 /* myrocket28.png */,
+				04DE26451D9B836400FB4A83 /* myrocket29.png */,
+				04DE26461D9B836400FB4A83 /* myrocket3.png */,
+				04DE26471D9B836400FB4A83 /* myrocket30.png */,
+				04DE26481D9B836400FB4A83 /* myrocket31.png */,
+				04DE26491D9B836400FB4A83 /* myrocket32.png */,
+				04DE264A1D9B836400FB4A83 /* myrocket33.png */,
+				04DE264B1D9B836400FB4A83 /* myrocket34.png */,
+				04DE264C1D9B836400FB4A83 /* myrocket35.png */,
+				04DE264D1D9B836400FB4A83 /* myrocket36.png */,
+				04DE264E1D9B836400FB4A83 /* myrocket4.png */,
+				04DE264F1D9B836400FB4A83 /* myrocket5.png */,
+				04DE26501D9B836400FB4A83 /* myrocket6.png */,
+				04DE26511D9B836400FB4A83 /* myrocket7.png */,
+				04DE26521D9B836400FB4A83 /* myrocket8.png */,
+				04DE26531D9B836400FB4A83 /* myrocket9.png */,
+			);
+			path = RocketImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DBB8431D76862000D020D6 /* MybasicMathGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBB8561D76862100D020D6 /* Build configuration list for PBXNativeTarget "MybasicMathGame" */;
+			buildPhases = (
+				04DBB8401D76862000D020D6 /* Sources */,
+				04DBB8411D76862000D020D6 /* Frameworks */,
+				04DBB8421D76862000D020D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MybasicMathGame;
+			productName = MybasicMathGame;
+			productReference = 04DBB8441D76862100D020D6 /* MybasicMathGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DBB83C1D76862000D020D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ict;
+				TargetAttributes = {
+					04DBB8431D76862000D020D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04DBB83F1D76862000D020D6 /* Build configuration list for PBXProject "MybasicMathGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DBB83B1D76862000D020D6;
+			productRefGroup = 04DBB8451D76862100D020D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DBB8431D76862000D020D6 /* MybasicMathGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DBB8421D76862000D020D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE26551D9B836400FB4A83 /* myrocket10.png in Resources */,
+				04DE266B1D9B836400FB4A83 /* myrocket30.png in Resources */,
+				04DE26651D9B836400FB4A83 /* myrocket25.png in Resources */,
+				04DE266C1D9B836400FB4A83 /* myrocket31.png in Resources */,
+				04DE26611D9B836400FB4A83 /* myrocket21.png in Resources */,
+				0437E3AA1D7FDE6B00171475 /* rocket2.png in Resources */,
+				0437E3AD1D7FDE6B00171475 /* rocket5.png in Resources */,
+				04DE26731D9B836400FB4A83 /* myrocket5.png in Resources */,
+				04DE26581D9B836400FB4A83 /* myrocket13.png in Resources */,
+				04DE26641D9B836400FB4A83 /* myrocket24.png in Resources */,
+				04DE266F1D9B836400FB4A83 /* myrocket34.png in Resources */,
+				04DE26721D9B836400FB4A83 /* myrocket4.png in Resources */,
+				0437E39F1D7FD96000171475 /* LaunchImage.png in Resources */,
+				04DE26631D9B836400FB4A83 /* myrocket23.png in Resources */,
+				04DE265F1D9B836400FB4A83 /* myrocket2.png in Resources */,
+				04DBB8521D76862100D020D6 /* LaunchScreen.storyboard in Resources */,
+				04DE26671D9B836400FB4A83 /* myrocket27.png in Resources */,
+				0437E3A81D7FDE6B00171475 /* rocket0.png in Resources */,
+				04DE26591D9B836400FB4A83 /* myrocket14.png in Resources */,
+				04DE266D1D9B836400FB4A83 /* myrocket32.png in Resources */,
+				04DE26601D9B836400FB4A83 /* myrocket20.png in Resources */,
+				04DE26621D9B836400FB4A83 /* myrocket22.png in Resources */,
+				04DE26571D9B836400FB4A83 /* myrocket12.png in Resources */,
+				04DE265D1D9B836400FB4A83 /* myrocket18.png in Resources */,
+				04DE265A1D9B836400FB4A83 /* myrocket15.png in Resources */,
+				04DE26771D9B836400FB4A83 /* myrocket9.png in Resources */,
+				04DE26711D9B836400FB4A83 /* myrocket36.png in Resources */,
+				04DE26761D9B836400FB4A83 /* myrocket8.png in Resources */,
+				0437E3A91D7FDE6B00171475 /* rocket1.png in Resources */,
+				04DE265C1D9B836400FB4A83 /* myrocket17.png in Resources */,
+				04DE265E1D9B836400FB4A83 /* myrocket19.png in Resources */,
+				04DE26661D9B836400FB4A83 /* myrocket26.png in Resources */,
+				04DBB84F1D76862100D020D6 /* Assets.xcassets in Resources */,
+				04DE266E1D9B836400FB4A83 /* myrocket33.png in Resources */,
+				04DE26741D9B836400FB4A83 /* myrocket6.png in Resources */,
+				04DE26541D9B836400FB4A83 /* myrocket1.png in Resources */,
+				04DE26681D9B836400FB4A83 /* myrocket28.png in Resources */,
+				04DE26701D9B836400FB4A83 /* myrocket35.png in Resources */,
+				04DE26561D9B836400FB4A83 /* myrocket11.png in Resources */,
+				0437E3A11D7FDE3600171475 /* backgroud.png in Resources */,
+				04DBB84D1D76862100D020D6 /* Main.storyboard in Resources */,
+				04DE265B1D9B836400FB4A83 /* myrocket16.png in Resources */,
+				04DE26691D9B836400FB4A83 /* myrocket29.png in Resources */,
+				0437E3AC1D7FDE6B00171475 /* rocket4.png in Resources */,
+				0437E3AB1D7FDE6B00171475 /* rocket3.png in Resources */,
+				04DE26751D9B836400FB4A83 /* myrocket7.png in Resources */,
+				04DE266A1D9B836400FB4A83 /* myrocket3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DBB8401D76862000D020D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DBB84A1D76862100D020D6 /* ViewController.swift in Sources */,
+				04DBB8481D76862100D020D6 /* AppDelegate.swift in Sources */,
+				04DE262E1D9B807800FB4A83 /* RocketAnimationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04DBB84B1D76862100D020D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DBB84C1D76862100D020D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DBB8501D76862100D020D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DBB8511D76862100D020D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DBB8541D76862100D020D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DBB8551D76862100D020D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DBB8571D76862100D020D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MybasicMathGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.MybasicMathGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04DBB8581D76862100D020D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MybasicMathGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.MybasicMathGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DBB83F1D76862000D020D6 /* Build configuration list for PBXProject "MybasicMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB8541D76862100D020D6 /* Debug */,
+				04DBB8551D76862100D020D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBB8561D76862100D020D6 /* Build configuration list for PBXNativeTarget "MybasicMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBB8571D76862100D020D6 /* Debug */,
+				04DBB8581D76862100D020D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DBB83C1D76862000D020D6 /* Project object */;
+}
