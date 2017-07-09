@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MymultimediaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RH-pu-znK">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="0ef-6f-EDq"/>
+                                    <constraint firstAttribute="width" constant="125" id="iNY-tu-uRg"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="File-Audio.png"/>
+                                <connections>
+                                    <segue destination="vQS-4V-ayn" kind="presentation" modalTransitionStyle="coverVertical" id="cXN-YT-DGL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPc-Jd-PDe">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="2cx-Dg-K8V"/>
+                                    <constraint firstAttribute="width" constant="125" id="WUr-Zv-Nr9"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="File-Video.png"/>
+                                <connections>
+                                    <segue destination="wrw-Ap-gqC" kind="presentation" modalTransitionStyle="crossDissolve" id="V0Z-d3-mzN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QPc-Jd-PDe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="FwZ-Zv-5BK"/>
+                            <constraint firstItem="2RH-pu-znK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-91" id="UH2-yu-mEr"/>
+                            <constraint firstItem="QPc-Jd-PDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="91" id="hdd-gS-SM6"/>
+                            <constraint firstItem="2RH-pu-znK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="irL-5V-VCG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--Audio Controller-->
+        <scene sceneID="nto-bC-gWT">
+            <objects>
+                <viewController id="vQS-4V-ayn" customClass="AudioController" customModule="MymultimediaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jvv-xa-4sU"/>
+                        <viewControllerLayoutGuide type="bottom" id="tPo-QS-rov"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lhF-pe-rn9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49e-AP-b74">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IUw-Xw-YaU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="กลับหน้าหลัก">
+                                    <color key="titleColor" red="1" green="0.57638265369999997" blue="0.8418440599" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToMain:" destination="vQS-4V-ayn" eventType="touchUpInside" id="zDD-Fh-fjV"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toycar.png" translatesAutoresizingMaskIntoConstraints="NO" id="Idm-Ws-077">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Idm-Ws-077" secondAttribute="height" multiplier="281:154" id="tEf-Ig-StJ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGf-6m-P6l">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="26D-WT-Bv4"/>
+                                    <constraint firstAttribute="height" constant="80" id="ZPK-zl-Me7"/>
+                                </constraints>
+                                <state key="normal" image="pause.png"/>
+                                <connections>
+                                    <action selector="pauseMethod:" destination="vQS-4V-ayn" eventType="touchUpInside" id="Wan-zH-d2G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtI-OK-rNw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="2jL-1y-PXo"/>
+                                    <constraint firstAttribute="height" constant="80" id="NZn-u6-oyd"/>
+                                </constraints>
+                                <state key="normal" image="stop.png"/>
+                                <connections>
+                                    <action selector="stopMethod:" destination="vQS-4V-ayn" eventType="touchUpInside" id="jga-IJ-5g6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTT-H7-Hzf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="CdT-8Q-EXw"/>
+                                    <constraint firstAttribute="width" constant="80" id="j79-dQ-9bA"/>
+                                </constraints>
+                                <state key="normal" image="play.png"/>
+                                <connections>
+                                    <action selector="playMethod:" destination="vQS-4V-ayn" eventType="touchUpInside" id="89S-6L-7PY"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BJ0-Rs-dLN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6A2-xJ-4mc"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="volumeMethod:" destination="vQS-4V-ayn" eventType="valueChanged" id="iqT-II-3fp"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57638265369999997" blue="0.8418440599" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="BJ0-Rs-dLN" firstAttribute="leading" secondItem="lhF-pe-rn9" secondAttribute="leadingMargin" constant="14" id="0mL-Go-F2M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="49e-AP-b74" secondAttribute="trailing" constant="9" id="2mM-5o-mUX"/>
+                            <constraint firstItem="fGf-6m-P6l" firstAttribute="top" secondItem="Idm-Ws-077" secondAttribute="bottom" constant="8" id="3Mb-4z-TzJ"/>
+                            <constraint firstItem="rTT-H7-Hzf" firstAttribute="top" secondItem="Idm-Ws-077" secondAttribute="bottom" constant="8" id="7x8-7a-41y"/>
+                            <constraint firstItem="rTT-H7-Hzf" firstAttribute="centerX" secondItem="lhF-pe-rn9" secondAttribute="centerX" id="DTA-J7-GUP"/>
+                            <constraint firstItem="49e-AP-b74" firstAttribute="leading" secondItem="lhF-pe-rn9" secondAttribute="leadingMargin" constant="9" id="JVG-B1-6Y9"/>
+                            <constraint firstItem="Idm-Ws-077" firstAttribute="top" secondItem="Jvv-xa-4sU" secondAttribute="bottom" constant="8" id="QOp-dW-iw7"/>
+                            <constraint firstAttribute="trailing" secondItem="Idm-Ws-077" secondAttribute="trailing" constant="19" id="RJr-3G-eM4"/>
+                            <constraint firstItem="CtI-OK-rNw" firstAttribute="top" secondItem="Idm-Ws-077" secondAttribute="bottom" constant="8" id="X5i-T2-4WW"/>
+                            <constraint firstItem="Idm-Ws-077" firstAttribute="leading" secondItem="lhF-pe-rn9" secondAttribute="leading" constant="20" id="cwq-J8-3vN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BJ0-Rs-dLN" secondAttribute="trailing" constant="13" id="fHk-89-zK3"/>
+                            <constraint firstItem="tPo-QS-rov" firstAttribute="top" secondItem="49e-AP-b74" secondAttribute="bottom" constant="20" id="gWZ-jb-Fjj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CtI-OK-rNw" secondAttribute="trailing" constant="13" id="jMU-RD-eaV"/>
+                            <constraint firstItem="BJ0-Rs-dLN" firstAttribute="top" secondItem="rTT-H7-Hzf" secondAttribute="bottom" constant="8" id="q3o-5h-sVY"/>
+                            <constraint firstItem="fGf-6m-P6l" firstAttribute="leading" secondItem="lhF-pe-rn9" secondAttribute="leadingMargin" constant="14" id="rPM-zS-87h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sliderVoluome" destination="BJ0-Rs-dLN" id="crM-Ga-wbu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wKS-uh-VZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832.5" y="123.59154929577466"/>
+        </scene>
+        <!--Vedio Controller-->
+        <scene sceneID="U11-Ml-z7a">
+            <objects>
+                <viewController id="wrw-Ap-gqC" customClass="VedioController" customModule="MymultimediaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oyd-KP-Fxj"/>
+                        <viewControllerLayoutGuide type="bottom" id="uAG-7I-RKg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JXX-q6-ijB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDh-he-sV5">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BEj-Ib-h0y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="กลับหน้าหลัก">
+                                    <color key="titleColor" red="0.98431372549019602" green="0.15686274509803921" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToMain:" destination="vQS-4V-ayn" eventType="touchUpInside" id="99h-dY-ooh"/>
+                                    <action selector="backToMain:" destination="wrw-Ap-gqC" eventType="touchUpInside" id="oHd-5S-oTn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8r-iD-jc5">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uyy-Aj-NeT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="ดูวีดิโอ">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.15686274510000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToMain:" destination="vQS-4V-ayn" eventType="touchUpInside" id="KdH-W1-8NU"/>
+                                    <action selector="palyMethod" destination="wrw-Ap-gqC" eventType="touchUpInside" id="icy-PV-bUo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thevoice.png" translatesAutoresizingMaskIntoConstraints="NO" id="dsD-Vb-Vcg">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dsD-Vb-Vcg" secondAttribute="height" multiplier="90:103" id="n2G-Zt-fEC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.15813218412285635" blue="0.26132479654341945" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kDh-he-sV5" firstAttribute="leading" secondItem="JXX-q6-ijB" secondAttribute="leadingMargin" constant="9" id="AoN-7o-51u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kDh-he-sV5" secondAttribute="trailing" constant="9" id="EkT-8X-aGc"/>
+                            <constraint firstItem="dsD-Vb-Vcg" firstAttribute="top" secondItem="Oyd-KP-Fxj" secondAttribute="bottom" id="HTb-vq-h3l"/>
+                            <constraint firstItem="dsD-Vb-Vcg" firstAttribute="leading" secondItem="JXX-q6-ijB" secondAttribute="leadingMargin" constant="9" id="MlR-Lr-Unv"/>
+                            <constraint firstItem="uAG-7I-RKg" firstAttribute="top" secondItem="kDh-he-sV5" secondAttribute="bottom" constant="20" id="ODf-JY-4yP"/>
+                            <constraint firstItem="Z8r-iD-jc5" firstAttribute="trailing" secondItem="kDh-he-sV5" secondAttribute="trailing" id="XGH-2s-0Wn"/>
+                            <constraint firstItem="Z8r-iD-jc5" firstAttribute="leading" secondItem="kDh-he-sV5" secondAttribute="leading" id="c3w-xd-pq8"/>
+                            <constraint firstItem="kDh-he-sV5" firstAttribute="top" secondItem="Z8r-iD-jc5" secondAttribute="bottom" constant="15" id="cob-Xu-75W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dsD-Vb-Vcg" secondAttribute="trailing" constant="9" id="vU9-xm-QN4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAX-d3-Qqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114.375" y="925"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="File-Audio.png" width="256" height="256"/>
+        <image name="File-Video.png" width="256" height="256"/>
+        <image name="pause.png" width="200" height="200"/>
+        <image name="play.png" width="200" height="200"/>
+        <image name="stop.png" width="200" height="200"/>
+        <image name="thevoice.png" width="650" height="800"/>
+        <image name="toycar.png" width="640" height="357"/>
+    </resources>
+</document>
