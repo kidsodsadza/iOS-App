@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5bs-jc-1TD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--tap-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TapGestureViewController" customModule="MyGestureApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rP-FC-7en">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="A9E-U4-2xK"/>
+                                    <constraint firstAttribute="height" constant="21" id="HWa-YZ-QqV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="fEM-TT-XQJ">
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="lUO-26-Nkg"/>
+                                    <constraint firstAttribute="width" secondItem="fEM-TT-XQJ" secondAttribute="height" multiplier="281:287" id="rci-WU-vnG"/>
+                                    <constraint firstAttribute="height" constant="287" id="w4C-yG-gHM"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7z2-Um-AeH" appends="YES" id="MTO-vk-Mix"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7rP-FC-7en" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="0p6-cc-8bR"/>
+                            <constraint firstItem="fEM-TT-XQJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2UP-Db-OXD"/>
+                            <constraint firstItem="7rP-FC-7en" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S7Q-Zq-kwx"/>
+                            <constraint firstItem="fEM-TT-XQJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ue9-kt-Ati"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="tap" image="icon_tap.png" id="dwI-6t-6mb"/>
+                    <connections>
+                        <outlet property="myImage" destination="fEM-TT-XQJ" id="eZH-k9-agD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="7z2-Um-AeH">
+                    <connections>
+                        <action selector="handleTapMethod:" destination="BYZ-38-t0r" id="5cR-HT-s0k"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="123.68815592203899"/>
+        </scene>
+        <!--rotate-->
+        <scene sceneID="g8v-CK-7Jb">
+            <objects>
+                <viewController id="WzV-1c-CRe" customClass="RotationGestureViewController" customModule="MyGestureApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aE6-9b-CX6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dal-gf-5Av"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nrz-Jk-Sz8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotation Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSS-Gj-mI5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="83Z-TV-rnO"/>
+                                    <constraint firstAttribute="height" constant="21" id="H6k-bE-XLo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="InO-s6-3Hs">
+                                <frame key="frameInset" minX="37" minY="197" width="300" height="273"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Zrp-xi-2P8" appends="YES" id="dkT-xh-dY0"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BSS-Gj-mI5" firstAttribute="top" secondItem="aE6-9b-CX6" secondAttribute="bottom" id="M6R-71-rsh"/>
+                            <constraint firstItem="BSS-Gj-mI5" firstAttribute="centerX" secondItem="Nrz-Jk-Sz8" secondAttribute="centerX" id="gYb-E5-uTc"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="rotate" image="icon_rotate.png" id="BzU-W3-CJA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vf1-ek-N1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <rotationGestureRecognizer id="Zrp-xi-2P8">
+                    <connections>
+                        <action selector="handleRotationMethod:" destination="WzV-1c-CRe" id="XfJ-gQ-Oga"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2229.5999999999999" y="877.51124437781118"/>
+        </scene>
+        <!--swipe-->
+        <scene sceneID="DnQ-VY-Zwv">
+            <objects>
+                <viewController id="Tcp-9f-68q" customClass="SwipeGestureViewController" customModule="MyGestureApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jwY-rx-Shw"/>
+                        <viewControllerLayoutGuide type="bottom" id="8qL-q8-v6A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q9M-ji-Jpu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rO3-iK-lre">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="bEh-sb-RT6"/>
+                                    <constraint firstAttribute="height" constant="21" id="hwg-rz-UWh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ml0-tM-5l5">
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="273" id="EYG-k8-YqG"/>
+                                    <constraint firstAttribute="width" constant="303" id="fji-bR-q4s"/>
+                                    <constraint firstAttribute="width" secondItem="Ml0-tM-5l5" secondAttribute="height" multiplier="101:91" id="ytA-kG-S2r"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TUV-zX-KMk" appends="YES" id="fgF-O4-4Hy"/>
+                                    <outletCollection property="gestureRecognizers" destination="vxA-xn-Ami" appends="YES" id="GtA-hS-Rd2"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ml0-tM-5l5" firstAttribute="centerY" secondItem="q9M-ji-Jpu" secondAttribute="centerY" id="61F-UX-OAK"/>
+                            <constraint firstItem="Ml0-tM-5l5" firstAttribute="centerX" secondItem="q9M-ji-Jpu" secondAttribute="centerX" id="HR4-cu-ZBA"/>
+                            <constraint firstItem="rO3-iK-lre" firstAttribute="centerX" secondItem="q9M-ji-Jpu" secondAttribute="centerX" id="xdU-i6-Kqn"/>
+                            <constraint firstItem="rO3-iK-lre" firstAttribute="top" secondItem="jwY-rx-Shw" secondAttribute="bottom" constant="8" id="xxd-BR-nwv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="swipe" image="icon_swipe.png" id="gnb-6v-Wqw"/>
+                    <connections>
+                        <outlet property="myImage" destination="Ml0-tM-5l5" id="o7s-18-rP7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezt-Vm-kxn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="TUV-zX-KMk">
+                    <connections>
+                        <action selector="handleSwipeMethod:" destination="Tcp-9f-68q" id="fSc-IU-C0Y"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="vxA-xn-Ami">
+                    <connections>
+                        <action selector="handleSwipeLeft:" destination="Tcp-9f-68q" id="wD4-ki-zyO"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="877.51124437781118"/>
+        </scene>
+        <!--pan-->
+        <scene sceneID="CM1-Aq-PnL">
+            <objects>
+                <viewController id="cem-XP-64n" customClass="PanGestureViewController" customModule="MyGestureApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vq3-80-pna"/>
+                        <viewControllerLayoutGuide type="bottom" id="wnY-5m-ZHG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="biw-1b-Ikt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pan Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icX-Pv-4hY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="Ayt-SO-2a3"/>
+                                    <constraint firstAttribute="height" constant="21" id="pdD-SL-Vzc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="AKb-D9-ssD">
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="314" id="Jrq-aP-yRZ"/>
+                                    <constraint firstAttribute="width" constant="354" id="guB-tD-mzQ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AKt-F7-aV3" appends="YES" id="b98-Cq-lZv"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AKb-D9-ssD" firstAttribute="centerY" secondItem="biw-1b-Ikt" secondAttribute="centerY" id="3PA-Fm-f1e"/>
+                            <constraint firstItem="icX-Pv-4hY" firstAttribute="centerX" secondItem="biw-1b-Ikt" secondAttribute="centerX" id="MXL-aN-Xgp"/>
+                            <constraint firstItem="AKb-D9-ssD" firstAttribute="centerX" secondItem="biw-1b-Ikt" secondAttribute="centerX" id="lYd-JG-V97"/>
+                            <constraint firstItem="icX-Pv-4hY" firstAttribute="top" secondItem="vq3-80-pna" secondAttribute="bottom" constant="8" id="vcu-rm-dRJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="pan" image="icon_pan.png" id="pbJ-og-qcD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fp-7I-e1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="AKt-F7-aV3">
+                    <connections>
+                        <action selector="handlePanMethood:" destination="cem-XP-64n" id="Osq-9W-RKc"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="744.79999999999995" y="877.51124437781118"/>
+        </scene>
+        <!--pinch-->
+        <scene sceneID="gSe-IY-7Ba">
+            <objects>
+                <viewController id="gDb-go-Djc" customClass="PinchGestureViewController" customModule="MyGestureApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zer-Qx-aot"/>
+                        <viewControllerLayoutGuide type="bottom" id="NUM-kx-b4F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WdT-LJ-l68">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pinch Gesture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfo-hd-VB5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4c3-z9-u1q"/>
+                                    <constraint firstAttribute="width" constant="119" id="syG-4W-dMJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="xql-mx-zbe">
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="336" id="UcF-Q4-9jy"/>
+                                    <constraint firstAttribute="height" constant="305" id="sfF-PS-i51"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DK1-co-PN5" appends="YES" id="TN8-mt-HCf"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xql-mx-zbe" firstAttribute="centerX" secondItem="WdT-LJ-l68" secondAttribute="centerX" id="Qgy-bl-nKh"/>
+                            <constraint firstItem="pfo-hd-VB5" firstAttribute="centerX" secondItem="WdT-LJ-l68" secondAttribute="centerX" id="XTR-60-gcO"/>
+                            <constraint firstItem="pfo-hd-VB5" firstAttribute="top" secondItem="Zer-Qx-aot" secondAttribute="bottom" id="crh-SQ-jNR"/>
+                            <constraint firstItem="xql-mx-zbe" firstAttribute="centerY" secondItem="WdT-LJ-l68" secondAttribute="centerY" id="v7G-3N-NPX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="pinch" image="icon_pinch.png" id="qLt-sY-M3N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NA9-mb-CdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="DK1-co-PN5">
+                    <connections>
+                        <action selector="handlePinchMethod:" destination="gDb-go-Djc" id="3jB-h6-T8S"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1477.5999999999999" y="877.51124437781118"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xMO-bE-NyC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5bs-jc-1TD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="bn5-sL-Vhd">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="HrF-kS-zw3"/>
+                        <segue destination="Tcp-9f-68q" kind="relationship" relationship="viewControllers" id="lpM-ee-qxn"/>
+                        <segue destination="cem-XP-64n" kind="relationship" relationship="viewControllers" id="DX2-m1-Bi3"/>
+                        <segue destination="gDb-go-Djc" kind="relationship" relationship="viewControllers" id="TZ1-E0-S1z"/>
+                        <segue destination="WzV-1c-CRe" kind="relationship" relationship="viewControllers" id="uIT-Ab-gR7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C36-p5-Udd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15" y="124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.png" width="500" height="500"/>
+        <image name="icon_pan.png" width="40" height="40"/>
+        <image name="icon_pinch.png" width="40" height="40"/>
+        <image name="icon_rotate.png" width="40" height="40"/>
+        <image name="icon_swipe.png" width="40" height="40"/>
+        <image name="icon_tap.png" width="40" height="40"/>
+    </resources>
+</document>
