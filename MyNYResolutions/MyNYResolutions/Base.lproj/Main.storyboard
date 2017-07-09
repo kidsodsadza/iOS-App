@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyNYResolutions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ไปเที่ยวต่างประเทศ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poA-Hd-YJ0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="0cW-PK-Hp7"/>
+                                    <constraint firstAttribute="height" constant="28" id="p4P-bW-WEG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create iOS App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0y-bp-2cO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="0Dj-AB-j9N"/>
+                                    <constraint firstAttribute="width" constant="157" id="bv2-T8-IbQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get in Shape" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4M-ob-qZL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="1no-a6-w7A"/>
+                                    <constraint firstAttribute="height" constant="23" id="cRH-V9-3xM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="อยากกินพิซซ่า" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWe-Vg-MEd">
+                                <frame key="frameInset" minX="205" minY="294" width="115" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="อยากเล่นเกม" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xqo-qU-288">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="dRu-fN-31g"/>
+                                    <constraint firstAttribute="height" constant="26" id="pyg-dN-79g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="16"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cartoon.png" translatesAutoresizingMaskIntoConstraints="NO" id="2N6-7P-zK1">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="PeU-8x-6rW"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="190" id="Zns-t4-7Eg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="274" id="k0X-7b-dQk"/>
+                                    <constraint firstAttribute="height" constant="190" id="rTQ-Sy-FAq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOr-kx-r2d">
+                                <state key="normal" title="Change to black"/>
+                                <connections>
+                                    <action selector="changeBackgroudColorToBlackWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zjD-aE-cxr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufd-WF-gUv">
+                                <state key="normal" title="Change to White"/>
+                                <connections>
+                                    <action selector="changeBackgroudColorToWhiteWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DEk-6g-YHA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xqo-qU-288" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0uc-ks-ZXA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ufd-WF-gUv" secondAttribute="bottom" constant="20" id="2hZ-Wy-gk1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SOr-kx-r2d" secondAttribute="bottom" constant="20" id="I33-S1-bwn"/>
+                            <constraint firstItem="2N6-7P-zK1" firstAttribute="leading" secondItem="M0y-bp-2cO" secondAttribute="trailing" constant="-173" id="I8J-YV-Umg"/>
+                            <constraint firstItem="poA-Hd-YJ0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-109" id="JEX-Aj-IA9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o4M-ob-qZL" secondAttribute="trailing" constant="-16" id="Pmd-Qu-sXe"/>
+                            <constraint firstItem="poA-Hd-YJ0" firstAttribute="leading" secondItem="2N6-7P-zK1" secondAttribute="trailing" constant="-205" id="XJM-J1-LeI"/>
+                            <constraint firstAttribute="trailing" secondItem="Ufd-WF-gUv" secondAttribute="trailing" constant="14" id="Xur-kr-WF7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Xqo-qU-288" secondAttribute="leading" id="gOn-2m-V0R"/>
+                            <constraint firstItem="o4M-ob-qZL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-44" id="nGo-Ry-9dS"/>
+                            <constraint firstItem="SOr-kx-r2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oUj-aH-0Hl"/>
+                            <constraint firstItem="2N6-7P-zK1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pCa-rj-Vxy"/>
+                            <constraint firstItem="M0y-bp-2cO" firstAttribute="top" secondItem="2N6-7P-zK1" secondAttribute="bottom" constant="-6" id="rDk-cH-a0c"/>
+                            <constraint firstItem="2N6-7P-zK1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xEJ-Wh-gy1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99.375" y="122.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cartoon.png" width="150" height="337"/>
+    </resources>
+</document>
