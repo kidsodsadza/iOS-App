@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RateMyStudents" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5d2-Bv-6t1">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate My Students" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yD-DW-FRx">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ysf-3P-tpo"/>
+                                    <constraint firstItem="3yD-DW-FRx" firstAttribute="centerY" secondItem="5d2-Bv-6t1" secondAttribute="centerY" constant="11.5" id="s7C-vc-XfY"/>
+                                    <constraint firstItem="3yD-DW-FRx" firstAttribute="centerX" secondItem="5d2-Bv-6t1" secondAttribute="centerX" id="vrq-IY-F1T"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1n-gg-EyD">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhn-zU-tL3">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wk6-Jt-bqO">
+                                                <frame key="frameInset" minX="8" minY="8" width="114" height="112"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHK-Zb-cfb">
+                                                <state key="normal" title="Update Score"/>
+                                                <connections>
+                                                    <action selector="updateScore1" destination="BYZ-38-t0r" eventType="touchUpInside" id="NmS-kN-1lR"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ชื่อ-นามสกุล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hz-Fe-h9V">
+                                                <frame key="frameInset" minX="130" minY="26" width="88" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlg-BU-SIc">
+                                                <frame key="frameInset" minX="194" minY="54" width="73" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คะแนน :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eT0-g1-vO5">
+                                                <frame key="frameInset" minX="130" minY="54" width="49" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="lHK-Zb-cfb" secondAttribute="trailing" constant="8" id="0ef-5m-3lN"/>
+                                            <constraint firstAttribute="height" constant="128" id="3dt-xK-dIs"/>
+                                            <constraint firstAttribute="bottom" secondItem="lHK-Zb-cfb" secondAttribute="bottom" constant="8" id="bSb-IX-zIr"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTX-7q-sKR">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GN9-BP-w9S">
+                                                <frame key="frameInset" minX="8" minY="7" width="114" height="112"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47V-Tf-HeE">
+                                                <state key="normal" title="Update Score"/>
+                                                <connections>
+                                                    <action selector="updateScore2" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nwb-rA-bhd"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ชื่อ-นามสกุล" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wx9-cn-IIo">
+                                                <frame key="frameInset" minX="130" minY="20" width="88" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="คะแนน :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8N-Kc-nJw">
+                                                <frame key="frameInset" minX="130" minY="49" width="49" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpG-wB-LUv">
+                                                <frame key="frameInset" minX="194" minY="49" width="73" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="47V-Tf-HeE" secondAttribute="trailing" constant="8" id="UcV-ww-EdP"/>
+                                            <constraint firstAttribute="bottom" secondItem="47V-Tf-HeE" secondAttribute="bottom" constant="8" id="YTs-NA-0Br"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qhn-zU-tL3" firstAttribute="leading" secondItem="r1n-gg-EyD" secondAttribute="leading" constant="12" id="BBW-BZ-XHG"/>
+                                    <constraint firstItem="NTX-7q-sKR" firstAttribute="top" secondItem="qhn-zU-tL3" secondAttribute="bottom" constant="32" id="Dga-p2-yFw"/>
+                                    <constraint firstItem="qhn-zU-tL3" firstAttribute="top" secondItem="r1n-gg-EyD" secondAttribute="top" constant="24" id="O3D-65-Zw5"/>
+                                    <constraint firstAttribute="bottom" secondItem="NTX-7q-sKR" secondAttribute="bottom" constant="108" id="Rlt-pK-FOW"/>
+                                    <constraint firstItem="NTX-7q-sKR" firstAttribute="width" secondItem="qhn-zU-tL3" secondAttribute="width" id="UZc-ku-cfe"/>
+                                    <constraint firstItem="NTX-7q-sKR" firstAttribute="centerX" secondItem="qhn-zU-tL3" secondAttribute="centerX" id="gQe-vG-Z9L"/>
+                                    <constraint firstItem="qhn-zU-tL3" firstAttribute="centerX" secondItem="r1n-gg-EyD" secondAttribute="centerX" id="kE0-dy-6Fc"/>
+                                    <constraint firstAttribute="trailing" secondItem="qhn-zU-tL3" secondAttribute="trailing" constant="12" id="nHy-Wv-5bW"/>
+                                    <constraint firstItem="NTX-7q-sKR" firstAttribute="height" secondItem="qhn-zU-tL3" secondAttribute="height" id="yOa-53-NXH"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56487441062927246" green="0.91870462894439697" blue="0.65011388063430786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r1n-gg-EyD" firstAttribute="top" secondItem="5d2-Bv-6t1" secondAttribute="bottom" id="H3e-si-pVi"/>
+                            <constraint firstItem="5d2-Bv-6t1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KS2-0o-lnp"/>
+                            <constraint firstItem="r1n-gg-EyD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QLB-Sf-Obi"/>
+                            <constraint firstAttribute="trailing" secondItem="5d2-Bv-6t1" secondAttribute="trailing" id="dkk-nt-LYV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="r1n-gg-EyD" secondAttribute="bottom" id="e0F-SA-I7h"/>
+                            <constraint firstAttribute="trailing" secondItem="r1n-gg-EyD" secondAttribute="trailing" id="eSY-Op-Lkc"/>
+                            <constraint firstItem="5d2-Bv-6t1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yBr-nT-vUR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView1" destination="wk6-Jt-bqO" id="foN-c0-F47"/>
+                        <outlet property="imgView2" destination="GN9-BP-w9S" id="jqR-NU-bf0"/>
+                        <outlet property="lblName1" destination="0hz-Fe-h9V" id="r7h-d0-XXU"/>
+                        <outlet property="lblName2" destination="Wx9-cn-IIo" id="eFe-68-P93"/>
+                        <outlet property="lblScore1" destination="Jlg-BU-SIc" id="Bh8-u1-Jue"/>
+                        <outlet property="lblScore2" destination="OpG-wB-LUv" id="vVC-SR-dVk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="123.75"/>
+        </scene>
+    </scenes>
+</document>
